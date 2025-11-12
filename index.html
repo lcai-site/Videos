@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Mídia IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Archivo+Black&family=Bangers&family=Bebas+Neue&family=Black+Ops+One&family=Changa:wght@400;800&family=Inter:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&family=Luckiest+Guy&family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@400;700&family=Pacifico&family=Passion+One:wght@400;700&family=Patua+One&family=Permanent+Marker&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&family=Ultra&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --background: #111827;
+            --surface: #1F2937;
+            --primary: #3B82F6;
+            --primary-hover: #2563EB;
+            --text-primary: #F9FAFB;
+            --text-secondary: #9CA3AF;
+            --border: #374151;
+            --font-family: 'Inter', sans-serif;
+            --highlight-color: #FBBF24;
+        }
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: var(--font-family);
+            background-color: var(--background);
+            color: var(--text-primary);
+            overscroll-behavior: none;
+        }
+        #root {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<script type="module" src="index.tsx"></script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
